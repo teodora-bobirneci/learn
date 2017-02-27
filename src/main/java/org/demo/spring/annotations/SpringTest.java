@@ -1,7 +1,7 @@
-package org.demo.spring;
+package org.demo.spring.annotations;
 
-import org.demo.spring.configuration.Application;
-import org.demo.spring.service.IService;
+import org.demo.spring.annotations.configuration.Application;
+import org.demo.spring.annotations.service.IService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
