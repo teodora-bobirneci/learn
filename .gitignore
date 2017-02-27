@@ -1,0 +1,3 @@
+/target/classes/org/demo/spring/*.class
+/target/classes/org/demo/spring/configuration/Application.class
+/target/classes/org/demo/spring/service/*.class
