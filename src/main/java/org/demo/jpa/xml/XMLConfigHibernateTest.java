@@ -13,7 +13,6 @@ public class XMLConfigHibernateTest {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("sakilaPU");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
-
         try {
             entityManager.createQuery("from Actor", Actor.class).getResultList().forEach(System.out::println);
         } finally {
