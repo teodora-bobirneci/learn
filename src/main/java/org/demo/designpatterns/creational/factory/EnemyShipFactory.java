@@ -3,16 +3,19 @@ package org.demo.designpatterns.creational.factory;
 /**
  * @author teodora.bobirneci
  */
-public class EnemyShipFactory {
+class EnemyShipFactory {
 
-    public EnemyShip makeEnemyShip(String newShipType) {
-        if (newShipType.equals("U")) {
-            return new UFOEnemyShip();
-        } else if (newShipType.equals("R")) {
-            return new RocketEnemyShip();
-        } else if (newShipType.equals("B")) {
-            return new BigUFOEnemyShip();
-        } else return null;
+    EnemyShip makeEnemyShip(String newShipType) {
+        switch (newShipType) {
+            case "U":
+                return new UFOEnemyShip();
+            case "R":
+                return new RocketEnemyShip();
+            case "B":
+                return new BigUFOEnemyShip();
+            default:
+                return null;
+        }
     }
 
 }

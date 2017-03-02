@@ -5,9 +5,6 @@ package org.demo.designpatterns.creational.factory;
  */
 public class EnemyShip {
     private String name;
-    private double speed;
-    private double directionX;
-    private double directionY;
     private double amtDamage;
 
     public String getName() {
@@ -18,24 +15,20 @@ public class EnemyShip {
         name = newName;
     }
 
-    public double getDamage() {
-        return amtDamage;
-    }
-
-    public void setDamage(double newDamage) {
+    void setDamage(double newDamage) {
         amtDamage = newDamage;
     }
 
-    public void followHeroShip() {
-        System.out.println(getName() + " is following the hero");
+    void followHeroShip() {
+        System.out.println(name + " is following the hero");
     }
 
-    public void displayEnemyShip() {
-        System.out.println(getName() + " is on the screen");
+    void displayEnemyShip() {
+        System.out.println(name + " is on the screen");
     }
 
-    public void enemyShipShoots() {
-        System.out.println(getName() + " attacks and does " + getDamage() + " damage to hero");
+    void enemyShipShoots() {
+        System.out.println(name + " attacks and does " + amtDamage + " damage to hero");
     }
 
 }
