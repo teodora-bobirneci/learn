@@ -1,11 +1,11 @@
-package org.demo.spribernate;
+package org.demo.spribernate.xml;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author teodora.bobirneci
  */
-public class SpribernateTest {
+public class SpribernateXMLTest {
 
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("org/demo/spribernate/xml/spring-beans.xml");

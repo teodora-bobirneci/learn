@@ -1,15 +1,13 @@
-package org.demo.spribernate;
+package org.demo.spribernate.xml;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * @author teodora.bobirneci
  */
-@Repository
 public class CountryDao {
 
     private SessionFactory sessionFactory;

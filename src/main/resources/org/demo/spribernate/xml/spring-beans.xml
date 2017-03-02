@@ -31,7 +31,7 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>org.demo.spribernate.Country</value>
+                <value>org.demo.spribernate.xml.Country</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -43,7 +43,7 @@
         </property>
     </bean>
 
-    <bean id="countryDao" class="org.demo.spribernate.CountryDao">
+    <bean id="countryDao" class="org.demo.spribernate.xml.CountryDao">
         <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
     </bean>
 </beans>

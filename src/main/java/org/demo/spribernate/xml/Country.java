@@ -1,4 +1,4 @@
-package org.demo.spribernate;
+package org.demo.spribernate.xml;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
