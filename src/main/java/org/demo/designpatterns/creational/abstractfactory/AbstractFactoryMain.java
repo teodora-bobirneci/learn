@@ -13,7 +13,6 @@ public class AbstractFactoryMain {
 
         EnemyShip theBoss = MakeUFOs.orderTheShip("UFO BOSS");
         System.out.println(theBoss + "\n");
-
     }
 
 }
