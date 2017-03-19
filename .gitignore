@@ -1,3 +1,7 @@
 /target/classes/org/demo/spring/*.class
 /target/classes/org/demo/spring/configuration/Application.class
 /target/classes/org/demo/spring/service/*.class
+/.idea/uiDesigner.xml
+*.class
+/target/classes/META-INF
+/target/classes

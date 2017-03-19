@@ -1,4 +1,4 @@
-package org.demo.designpatterns.behavioral;
+package org.demo.designpatterns.behavioral.strategy;
 
 /**
  * @author teodora.bobirneci
