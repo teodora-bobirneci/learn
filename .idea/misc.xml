@@ -13,6 +13,9 @@
       <writeAnnotation name="org.springframework.boot.context.embedded.LocalServerPort" />
     </writeAnnotations>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

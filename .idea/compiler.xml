@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bulletjournalapp" />
         <module name="learn" />
         <module name="mybulletjournalapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bulletjournalapp" target="1.8" />
       <module name="learn" target="1.8" />
       <module name="mybulletjournalapp" target="1.8" />
     </bytecodeTargetLevel>
